@@ -1,0 +1,39 @@
+.bottom_bar_wrapper {
+    background-color: #060606;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15%;
+    padding-left: 250px;
+    padding-right: 150px;
+}
+
+.bottom_bar_wrapper > .build a, .gopro a, .unite a, .discover a {
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;    
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color .2s ease;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bottom_bar_wrapper > .build a {
+    border-bottom: 4px solid #47CF73;
+}
+
+.bottom_bar_wrapper > .gopro a, .unite a, .discover a {
+    border-bottom: 4px solid transparent;
+    color: #9396A4;
+}
+
+.bottom_bar_wrapper > .gopro a:hover, .unite a:hover, .discover a:hover {
+    color: white;
+}
+
+.bottom_bar_wrapper > .build a:hover, .gopro a:hover, .unite a:hover, .discover a:hover {
+    border-bottom: 4px solid white;
+}

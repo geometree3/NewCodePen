@@ -1,0 +1,67 @@
+.header_wrapper > .search_wrapper > .search {
+    padding: 20px 205px;
+    /* background-color: #131418; */
+    margin: -10px;
+    height: 45px;
+    position: relative;
+    width: 1111px;
+}   
+
+.header_wrapper > .search_wrapper > .search input {
+    width: 100%;
+    height: 40px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25em;
+    background-color: #2D303A;
+    color: white;
+    padding: 0px 10px;
+    border: none;
+}
+
+.header_wrapper > .search_wrapper > .search > .searchTerm {
+    float: left;
+    width: 100%;
+    padding: 5px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.header_wrapper > .search_wrapper > .search input:focus {
+    background-color: #5A5F73;
+}
+
+.header_wrapper {
+    display:flex;
+}
+
+.header_wrapper > .sign_up_btn_wrapper > .sign_up_btn {
+    margin: 0px 0px 0px -190px;
+    padding: 0px 0px 0px 10px;
+}
+
+.header_wrapper > .sign_up_btn_wrapper > .sign_up_btn button {
+    width: 90px;
+    height: 45px;
+    background-color: #2FB45A;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    border: none;
+    margin: 6px;
+}
+
+.header_wrapper > .log_in_btn_wrapper > .log_in_btn {
+    margin: 0px 0px 0px -85px;
+}
+
+.header_wrapper > .log_in_btn_wrapper > .log_in_btn button {
+    width: 90px;
+    height: 45px;
+    background-color: #444857;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    margin: 6px 10px;
+    border: none;
+    font-weight: 700;
+}
